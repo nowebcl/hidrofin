@@ -1,5 +1,5 @@
 /* ==========================================================================
-   HIDROFIN INTERACTIVE FRONTEND SCRIPT
+   SERVIGRAM INTERACTIVE FRONTEND SCRIPT
     Snappy, lightweight, and robust vanilla JavaScript.
    ========================================================================== */
 
@@ -405,7 +405,7 @@ document.addEventListener('DOMContentLoaded', () => {
       console.log('Sending Message Package:', dataPackage);
       
       // Direct high-fidelity alert response
-      alert('¡Muchas gracias por su mensaje! Su solicitud ha sido enviada con éxito. Un consultor técnico de HIDROFIN lo contactará a la brevedad.');
+      alert('¡Muchas gracias por su mensaje! Su solicitud ha sido enviada con éxito. Un consultor técnico de SERVIGRAM lo contactará a la brevedad.');
       contactForm.reset();
     });
   }
