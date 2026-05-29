@@ -1944,3 +1944,25 @@ section {
   }
 }
 
+/* --- Footer Contact SVG Items --- */
+.footer-contact-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 0.875rem;
+  color: var(--muted-foreground);
+  margin-bottom: 0.75rem;
+  transition: color var(--transition-fast);
+}
+
+.footer-contact-item a:hover {
+  color: var(--accent);
+}
+
+.footer-contact-item svg {
+  width: 1.125rem;
+  height: 1.125rem;
+  color: var(--accent);
+}
+
+
